@@ -1,0 +1,15 @@
+# modules
+node_modules
+
+# build artifacts
+dist/*
+coverage/*
+
+# data definition files
+**/*.d.ts
+
+# custom definition files
+/src/types/
+
+# configs
+*.config.js

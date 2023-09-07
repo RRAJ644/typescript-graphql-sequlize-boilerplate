@@ -1,0 +1,1 @@
+# typescript-graphql-sequlize-boilerplate

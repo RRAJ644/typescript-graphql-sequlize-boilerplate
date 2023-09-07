@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "outDir": "build/src",
+    "target":"ES6",
+    "module":"Node16",
+    "lib": ["es2018", "dom"],
+    "strict": true,
+    "types": [ "node" ],
+    "emitDecoratorMetadata": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "inlineSourceMap": true,
+    "moduleResolution":"Node" ,
+    "resolveJsonModule": true,
+    "typeRoots": ["node_modules/@types", "./src/types"],
+  },
+  "include": ["src/**/*.ts", "server.ts", "config/*.js", "src/**/**/.graphql"],
+  "exclude": ["node_modules"]
+}
+
